@@ -11,6 +11,15 @@ body{
     height:250px;
 }
 
+.home h2 {
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 5px;
+    color:#aaa;
+}
+
+
+
 footer {
     position: absolute;
     bottom: 0;
@@ -54,16 +63,66 @@ footer p {
     border: none;
 }
 
-.bt-cv {
-    width:168px;
-    height: 168px;
+a.btf, a:hover.btf, a:link.btf, a:visited.btf, a:active.btf {
+    border:0;
+    width:268px;
+    height: 268px;
+    color:transparent;
+}
+.btf.cv div {
+    width:268px;
+    height: 268px;
     background-image: linear-gradient(to bottom,#ff655d,#ffffff 100%); 
     font-family: 'Marcellus SC', serif;
-    font-size: 120px;
+    font-size: 185px;
     text-align: center;
     color:#FFF;
 }
 
+.btf div img {
+    width:200px;
+    height: 200px;
+}
+
+.btf.logos div {
+    width:268px;
+    height: 268px;
+    background-image: linear-gradient(to bottom,#ddd,#ccc 100%); 
+    text-align: center;
+    padding:30px;
+}
+
+.btf.interfaces div {
+    width:268px;
+    height: 268px;
+    background-image: linear-gradient(to bottom,#ddd,#ccc 100%); 
+    text-align: center;
+    padding:30px;
+}
+
+.btf.contact div {
+    width:268px;
+    height: 268px;
+    background-image: linear-gradient(to bottom,#ddd,#ccc 100%); 
+    text-align: center;
+    padding:30px;
+}
+
+.btf.sites div {
+    width:268px;
+    height: 268px;
+    background-image: linear-gradient(to bottom,#ddd,#ccc 100%); 
+    text-align: center;
+    padding:30px;
+}
+
+.btf.perso div {
+    width:268px;
+    height: 268px;
+    background-image: linear-gradient(to bottom,#ddd,#ccc 100%); 
+    text-align: center;
+    padding:30px;
+}
 
 .picto {
     height:240px;
