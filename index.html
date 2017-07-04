@@ -2,28 +2,43 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8">
-  <title>Fred Can Do It</title>
+  <title>Fred Bauret</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
 <!--    <link rel="icon" href="favicon.ico">-->
     <link rel="shortcut icon" href="favicon.ico"/>
     <link rel="icon" type="image/png" href="logo.png" />
     
     <link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:bold" rel="stylesheet">
     
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="__https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     
 <link rel="stylesheet" href="css/fb.css">
 
+    <style>
+    @keyframes darken {
+        0%, 100% {fill: #FCA9B7;}
+        50% {fill: #DD3D93;}
+    }
+    
+    #iris {
+        animation: darken 1s infinite;
+    }
+    
+    </style>
+    
+    
+    
 </head>
 
 <body id="top" class="home">
 
     
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -32,18 +47,140 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/"><img src="img/fredbauret.svg" class="logo"></a>
+          
+<!--
+<a class="navbar-brand logo" style="" href="/">
+    
+    <?xml version="1.0" encoding="utf-8"?>
+    <svg version="1.1" id="oeil" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 378 343" style="enable-background:new 0 0 378 343;" xml:space="preserve">
+    <style type="text/css">
+
+        @keyframes slideDown {
+            from {transform: translateY(-200px);}
+            to {transform: translateY(5px);}
+        }
+
+        @keyframes darken {
+            0%, 100% {fill: #FCA9B7;}
+            50% {fill: #DD3D93;}
+        }
+
+        #paupiere {
+            animation: slideDown .65s 2s cubic-bezier(0.17, 0.89, 0.32, 1.28)  forwards;
+        }
+
+        #iris {
+            animation: darken 1s infinite;
+        }
+
+        .st0{
+            opacity:0.7;fill:#008487;
+
+        }
+        .st1{fill:#999999;}
+        .st2{opacity:0.5;fill:#FFFFFF;}
+    </style>
+    <circle id="iris" class="st0" cx="189" cy="171.8" r="107"/>
+    <circle id="pupille" cx="189" cy="171.8" r="51"/>
+    <g id="paupiere">
+        <path id="paup" class="st1" d="M352,161H25C25,74,102,6.5,189,6.5S352,74,352,161z"/>
+        <path id="reflet" class="st2" d="M183.1,194.3L183.1,194.3c-10.9-3.4-16.7-15.3-12.7-26.1L229,12l48,20l39,39L203.6,189
+            C198.3,194.5,190.4,196.6,183.1,194.3z"/>
+        <path id="trait" d="M364.5,152h-352c-5.2,0-9.5,4.3-9.5,9.5v0c0,5.2,4.3,9.5,9.5,9.5h352c5.2,0,9.5-4.3,9.5-9.5v0
+            C374,156.3,369.7,152,364.5,152z"/>
+        <path id="bordure" d="M189,14.3c87,0,157.5,70.5,157.5,157.5c0,87-70.5,157.5-157.5,157.5S31.5,258.8,31.5,171.8
+            C31.5,84.8,102,14.3,189,14.3 M189,0.3c-23.1,0-45.6,4.5-66.8,13.5c-20.4,8.6-38.8,21-54.5,36.7C52,66.3,39.6,84.6,31,105.1
+            c-8.9,21.2-13.5,43.6-13.5,66.8S22,217.4,31,238.6c8.6,20.4,21,38.8,36.7,54.5c15.7,15.7,34.1,28.1,54.5,36.7
+            c21.2,8.9,43.6,13.5,66.8,13.5s45.6-4.5,66.8-13.5c20.4-8.6,38.8-21,54.5-36.7c15.7-15.7,28.1-34.1,36.7-54.5
+            c8.9-21.2,13.5-43.6,13.5-66.8s-4.5-45.6-13.5-66.8c-8.6-20.4-21-38.8-36.7-54.5c-15.7-15.7-34.1-28.1-54.5-36.7
+            C234.6,4.9,212.1,0.3,189,0.3L189,0.3z"/>
+    </g>
+    </svg>
+  </a>
+-->
+  
+  
+          
+ <a class="navbar-brand logo" style="" href="/">         
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="oeil" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 378 340" style="enable-background:new 0 0 378 340;" xml:space="preserve">
+<style type="text/css">
+  
+  @keyframes slideDown {
+    from {transform: translateY(2000px);}
+    to {transform: translateY(0px);}
+        }
+  @keyframes darken {
+            0%, 100% {fill: #09ACAC;}
+            50% {fill: #DD3D93;}
+        }
+  
+  a.logo:hover #iris {
+    animation: darken 3s infinite;
+  }
+  #oeil {
+    animation: slideDown 1s 0s cubic-bezier(.02,.77,.37,1.21)  forwards;
+  }
+  
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#09ACAC;}
+	.st2{opacity:0.4;fill:#FFFFFF;enable-background:new    ;}
+	.st3{fill:#999999;}
+	.st4{opacity:0.5;fill:#FFFFFF;enable-background:new    ;}
+	.st5{opacity:0.35;enable-background:new    ;}
+</style>
+
+<g id="oeil">
+  <circle id="fdOeil" class="st0" cx="189" cy="170" r="161"/>
+  <circle id="iris" class="st1" cx="189" cy="170" r="107"/>
+  <g id="pupille">
+   <circle id="_x33_" class="st2" cx="189" cy="170" r="66"/>
+   <circle id="_x32_" cx="189" cy="170" r="51"/>
+   <circle id="_x31_" class="st0" cx="170" cy="178" r="16"/>
+  </g>
+  <g id="paupiere_1_">
+   <path id="paup" class="st3" d="M352.5,158h-327c0-87,77-154.5,164-154.5S352.5,71,352.5,158z"/>
+   <path id="reflet_1_" class="st4" d="M26,162C25,94,91,36,104,30c-14,89,85,132,85,132H26z"/>
+   <path id="ombre" class="st5" d="M352,177c-112.7,12-221.3,12-326,0v-22h326V177z"/>
+   <path id="trait" d="M365,152.5H13c-5.2,0-9.5,4.3-9.5,9.5l0,0c0,5.2,4.3,9.5,9.5,9.5h352c5.2,0,9.5-4.3,9.5-9.5l0,0
+    C374.5,156.8,370.2,152.5,365,152.5z"/>
+   <path id="bordure" d="M189,13.9c86.2,0,156.1,69.9,156.1,156.1S275.2,326.1,189,326.1S32.9,256.2,32.9,170S102.8,13.9,189,13.9
+     M189,0c-22.9,0-45.2,4.5-66.2,13.4c-20.2,8.6-38.4,20.8-54,36.4s-27.9,33.8-36.4,54C23.5,124.8,19,147.1,19,170
+    s4.5,45.2,13.4,66.2c8.6,20.2,20.8,38.4,36.4,54s33.8,27.9,54,36.4c21,8.9,43.2,13.4,66.2,13.4s45.2-4.5,66.2-13.4
+    c20.2-8.6,38.4-20.8,54-36.4s27.9-33.8,36.4-54c8.9-21,13.4-43.2,13.4-66.2s-4.5-45.2-13.4-66.2c-8.6-20.2-20.8-38.4-36.4-54
+    s-33.8-27.9-54-36.4C234.2,4.5,211.9,0,189,0L189,0z"/>
+  </g>
+</g>
+  
+</svg>
+
+</a>
+          
+  
+  
+  
+  
+  
+  
+
+            
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="/">Home</a></li>
             <li><a href="parcours.html">Parcours</a></li>
-            <li><a href="sites.html">Sites</a></li>
-            <li><a href="perso.html">Perso</a></li>
             <li><a href="interfaces.html">Interfaces</a></li>
             <li><a href="logos.html">Logos</a></li>
             <li><a href="contact.html">Contact</a></li>
+<!--
+            <li><a href="interfaces.html">Interfaces</a></li>
+            <li><a href="logos.html">Logos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+-->
           </ul>
 <!--
           <form class="navbar-form navbar-right">
@@ -74,49 +211,71 @@
     </div>
 
     <div class="container">
-      <!-- Example row of columns -->
+    <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-            <h2>Parcours</h2>
-            <a href="parcours.html" class="btf cv"><div>CV</div></a>
+        <a href="parcours.html" class="btf cv"><div>P<span>arcours</span></div></a>
         </div>
         <div class="col-md-4">
-            <h2>Sites</h2>
-                <a href="sites.html" class="btf sites"><div>S</div></a>
-       </div>
+        <a href="interfaces.html" class="btf interfaces"><div>I<span>terfaces</span></div></a>
+        </div>
         <div class="col-md-4">
-          <h2>Perso</h2>
+        <a href="logos.html" class="btf logos"><div>L<span>ogos</span></div></a>
+        </div>
+<!--
+        <div class="col-md-4">
             <a href="perso.html" class="btf perso"><div><img src="img/img-01.jpg"></div></a>
         </div>
+-->
       </div>
-        </div> <!-- /container -->
+       <hr>
+    </div> <!-- /container -->
     
-            <div class="container">
-      <!-- Example row of columns -->
+<!--
+    <div class="container">
       <div class="row">
         <div class="col-md-4">
             <h2>Interfaces</h2>
             <a href="interfaces.html" class="btf interfaces"><div>CV</div></a>
         </div>
         <div class="col-md-4">
-            <h2>Logos</h2>
-            <a href="logos.html" class="btf logos"><div><img src="img/ficon.svg"></div></a>
+            <a href="logos.html" class="btf logos">
+              <div>     
+                <?xml version="1.0" encoding="utf-8"?>
+                <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 367.7 367.7" style="enable-background:new 0 0 367.7 367.7;" xml:space="preserve">
+                <style type="text/css">
+                 .st10{fill:#FFFFFF;}
+                 .st11{fill:#FF0043;}
+                </style>
+                <g>
+                 <circle class="st10" cx="183.9" cy="183.9" r="183.9"/>
+                 <path class="st11" d="M125.8,181.2H80.6c-1.4-5.7-2.2-12.7-2.2-21c0-7.9,0.7-14.9,2.2-21h45.2v-19.4c0-34.1,8.5-60,25.6-77.8
+                  c17-17.8,41.9-26.6,74.6-26.6c9,0,16.9,0.5,23.7,1.3c6.7,0.9,13,2.2,19.1,4C243.3,7.5,214.5,0,183.9,0C82.3,0,0,82.3,0,183.9
+                  c0,81.3,52.7,150.2,125.8,174.5V181.2z"/>
+                 <path class="st11" d="M269,20.9c-0.7,8.9-1.7,16.6-3,23.1c-1.3,6.5-3,13.1-5.1,19.9c-3.6-0.7-7.8-1.5-12.7-2.4
+                  c-4.8-0.9-10.7-1.3-17.5-1.3c-7.9,0-15,0.8-21.3,2.4c-6.3,1.6-11.7,4.7-16.1,9.2c-4.5,4.5-8,10.8-10.5,18.8
+                  c-2.5,8.1-3.8,18.4-3.8,31v17.8h70.5c1.1,7.2,1.6,14.5,1.6,22.1c0,6.8-0.5,13.5-1.6,19.9h-70.5v186.5c1.6,0,3.2,0.1,4.8,0.1
+                  c101.5,0,183.9-82.3,183.9-183.9C367.7,113,327.7,51.6,269,20.9z"/>
+                </g>
+                </svg>  
+              </div>
+            </a>
        </div>
         <div class="col-md-4">
           <h2>Contact</h2>
           <a href="contact.html" class="btf contact"><div><img src="img/contact.svg"></div></a>
         </div>
       </div>
-
-      <hr>
-
-    </div> <!-- /container -->
+    </div> 
+-->
+  <!-- /container -->
 
       <footer> 
         <div class="container">
             <div class="row bottom">
                 <div class="footer-icon"><a href="https://github.com"><img src="img/octicons-mark-github.svg"></a></div>
-                <div class="copyright">&copy; fb on GitHub 2017</div>
+                <div class="copyright">&copy; fred on GitHub 2017</div>
             </div>
         </div> <!-- /container -->  
       </footer>
